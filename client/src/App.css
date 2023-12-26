@@ -1,0 +1,139 @@
+/*
+Vishnu Sreekanth
+
+Random Cricket XI Generator
+
+App.css
+*/
+
+html {
+    background-image: url("images/GreenBackground.png");
+}
+
+body {
+    font-family: 'Saira', sans-serif;
+    color: white;
+}
+
+button {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: #59ce59ff;
+    color: white;
+    font-family: 'Saira', 'sans-serif';
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: 600;
+}
+
+button:active {
+    background-color: rgb(42, 100, 42);
+}
+
+input[type=radio] {
+    accent-color: red;
+}
+
+.uiDisplay {
+    border-radius: 15px;
+    background-color:rgb(200, 161, 111);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
+.title {    
+    padding-top: 10px;
+    font-weight: 600;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.mainDescription {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.advancedModeDropdowns {
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.advancedModeDropdowns p {
+    display: inline-block;
+    margin-bottom: 1px;
+}
+
+.advancedModeDropdowns select {
+    margin-left: 5px;
+    display: inline-block;
+    font-family: 'Saira', sans-serif;
+}
+
+.playingElevenContainer {
+    padding-bottom: 20px;
+}
+
+.playerBox {
+    display: flex;
+    font-size: 0.6rem;
+    align-items: center;
+    background-color: #59ce59ff;
+    border: 2px solid #59ce59ff;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    cursor: move;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.playerBox img {
+    height: 45px;
+    width: auto;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .playerBox {
+        width: 75%;
+    }
+
+    .mainDescription {
+        font-size: 0.75rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    };
+
+
+}
+
+@media only screen and (min-width: 900px) {
+
+    .playerBox {
+        width: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+
+    .playerBox {
+        font-size: 0.45rem;
+    };
+
+
+}
+
+
+
+
+
+
